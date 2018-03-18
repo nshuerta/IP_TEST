@@ -51,7 +51,7 @@
 - Class: cmd_question
   Output: "8.Compara si X2 es mayor o igual que X"
   CorrectAnswer: X2>=X
-  AnswerTests: any_of_exprs('X2>=X', 'X2=>X')
+  AnswerTests: omnitest(correctExpr='X2>=X')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
