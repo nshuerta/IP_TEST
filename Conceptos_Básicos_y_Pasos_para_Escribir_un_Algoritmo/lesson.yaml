@@ -79,6 +79,6 @@
 - Class: mult_question
   Output: "Envío tu calificación"
   AnswerChoices: Si;No
-  CorrectAnswer: NULL
+  CorrectAnswer: Si
   AnswerTests: submit_log()
-  Hint: hint
+  Hint: ENTER
