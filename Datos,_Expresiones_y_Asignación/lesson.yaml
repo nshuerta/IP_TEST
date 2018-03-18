@@ -7,21 +7,21 @@
   Version: 2.4.3
 
 - Class: cmd_question
-  Output: "1. Asigna (<-) a X el número 3"
+  Output: "1. Asigna a X el número 3"
   CorrectAnswer: X<-3
-  AnswerTests: omnitest(correctExpr='X<-3')
+  AnswerTests: any_of_exprs('X<-3', 'X=3')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
-  Output: "2. Asigna (<-) a Y la palabra 'Cosa'"
+  Output: "2. Asigna a Y la palabra 'Cosa'"
   CorrectAnswer: Y<-"Cosa"
-  AnswerTests: omnitest(correctExpr='Y<-"Cosa"')
+  AnswerTests: any_of_exprs('Y<-"Cosa"', 'Y="Cosa"','Y<-"cosa"','Y="cosa"')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
-  Output: "3. Asigna (<-) a Z la igualdad de X con 3"
+  Output: "3. Asigna a Z la igualdad de X con 3"
   CorrectAnswer: Z<-X==3
-  AnswerTests: omnitest(correctExpr='Z<-X==3')
+  AnswerTests: any_of_exprs('Z<-X==3', 'Z=X==3')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
@@ -45,25 +45,25 @@
 - Class: cmd_question
   Output: "7. Eleva al cuadrado a X y asignala a X2"
   CorrectAnswer: X2<-X**2
-  AnswerTests: omnitest(correctExpr='X2<-X**2')
+  AnswerTests:any_of_exprs('X2<-X**2', 'X2=X**2', 'X2<-X^2', 'X2=X^2')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "8.Compara si X2 es mayor o igual que X"
   CorrectAnswer: X2>=X
-  AnswerTests: omnitest(correctExpr='X2>=X')
+  AnswerTests: any_of_exprs('X2>=X', 'X2=>X')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "9. Une las letras 's', 'o' y 'l' con espacios"
   CorrectAnswer: paste("s","o","l")
-  AnswerTests: omnitest(correctExpr='paste("s","o","l")')
+  AnswerTests: any_of_exprs('paste("s","o","l")', 'paste("S","o","l")', 'paste("S","O","L")' )
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "10. Une las letras 's', 'o' y 'l' sin espacios"
   CorrectAnswer: paste0("s","o","l")
-  AnswerTests: omnitest(correctExpr='paste0("s","o","l")')
+  AnswerTests: any_of_exprs('paste0("s","o","l")', 'paste0("S","o","l")', 'paste0("S","O","L")' )
   Hint: Selecciona otra respuesta.
 
 - Class: mult_question
