@@ -1,6 +1,6 @@
 - Class: meta
   Course: Primer parcial
-  Lesson: Datos, Expresiones y Asignación
+  Lesson: Datos, Expresiones y Asignacion
   Author: N. Sofia Huerta-Pacheco
   Type: Standard
   Organization: CTES - FEI Universidad Veracruzana
@@ -36,10 +36,11 @@
   AnswerTests: omnitest(correctExpr='class(Y)')
   Hint: Selecciona otra respuesta.
 
-- Class: cmd_question
-  Output: "6. Obtén la clase de Z"
-  CorrectAnswer: class(Z)
-  AnswerTests: omnitest(correctExpr='class(Z)')
+- Class: mult_question
+  Output: "6. ¿De que clase es Z?"
+  AnswerChoices: Numerica;Logica;Caracter
+  CorrectAnswer: Logica
+  AnswerTests: omnitest(correctVal='Logica')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
@@ -71,4 +72,4 @@
   AnswerChoices: Si
   CorrectAnswer: Si
   AnswerTests: submit_log()
-  Hint: Si ya enviaste tu "calificación", oprime el botón ESC y luego escribe swirl() para reanudar la prueba
+  Hint: Si ya enviaste tu "calificación", oprime el botón ESC.
