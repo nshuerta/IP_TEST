@@ -75,3 +75,10 @@
   CorrectAnswer: Paquetes
   AnswerTests: omnitest(correctVal='Paquetes')
   Hint: Escriba otra respuesta.
+
+- Class: mult_question
+  Output: "Envío tu calificación"
+  AnswerChoices: Si;No
+  CorrectAnswer: NULL
+  AnswerTests: submit_log()
+  Hint: hint
