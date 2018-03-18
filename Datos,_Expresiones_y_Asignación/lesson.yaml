@@ -65,4 +65,10 @@
   CorrectAnswer: paste0("s","o","l")
   AnswerTests: omnitest(correctExpr='paste0("s","o","l")')
   Hint: Selecciona otra respuesta.
-  
+
+- Class: mult_question
+  Output: "Envía tu calificación"
+  AnswerChoices: Si
+  CorrectAnswer: Si
+  AnswerTests: submit_log()
+  Hint: Si ya enviaste tu "calificación", oprime el botón ESC y luego escribe swirl() para reanudar la prueba
