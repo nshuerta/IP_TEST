@@ -77,8 +77,8 @@
   Hint: Escriba otra respuesta.
 
 - Class: mult_question
-  Output: "Envío tu calificación"
+  Output: "Envía tu calificación"
   AnswerChoices: Si
   CorrectAnswer: NULL
   AnswerTests: submit_log()
-  Hint: ENTER
+  Hint: Oprime el botón esc y luego swirl() para reanudar 
