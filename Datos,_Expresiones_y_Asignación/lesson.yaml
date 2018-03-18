@@ -45,7 +45,7 @@
 - Class: cmd_question
   Output: "7. Eleva al cuadrado a X y asignala a X2"
   CorrectAnswer: X2<-X**2
-  AnswerTests:any_of_exprs('X2<-X**2', 'X2=X**2', 'X2<-X^2', 'X2=X^2')
+  AnswerTests: any_of_exprs('X2<-X**2', 'X2=X**2', 'X2<-X^2', 'X2=X^2')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
