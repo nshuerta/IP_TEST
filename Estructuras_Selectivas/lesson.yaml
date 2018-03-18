@@ -1,0 +1,13 @@
+- Class: meta
+  Course: Primer parcial
+  Lesson: Estructuras Selectivas
+  Author: N. Sofia Huerta-Pacheco
+  Type: Standard
+  Organization: CTES - FEI Universidad Veracruzana
+  Version: 2.4.3
+
+- Class: script
+  Output: "De las calificaciones de los estudiantes de Español (69, 98, 87) obtén el: 1) Máximo, 2) Mínimo, 3) Rango y 4) Rango medio"
+  AnswerTests: omnitest(correctExpr='EXPR', correctVal=VAL)
+  Hint: Guarda como "Code2_Nombre_PrimerApellido".
+  Script: code2.R
