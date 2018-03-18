@@ -1,4 +1,4 @@
-# Evaluación de Estudiantes de Grado 
+# Evaluación de Grado 
 Primer parcial
 
 1.	Conceptos básicos y lenguaje R
