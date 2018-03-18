@@ -79,6 +79,6 @@
 - Class: mult_question
   Output: "Envía tu calificación"
   AnswerChoices: Si
-  CorrectAnswer: NULL
+  CorrectAnswer: Si
   AnswerTests: submit_log()
-  Hint: Oprime el botón esc y luego swirl() para reanudar 
+  Hint: Si ya enviaste tu "calificación", oprime el botón ESC y luego escribe swirl() para reanudar la prueba
