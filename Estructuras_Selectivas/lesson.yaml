@@ -8,6 +8,6 @@
 
 - Class: script
   Output: "De las calificaciones de los estudiantes de Español (69, 98, 87) obtén el: 1) Máximo, 2) Mínimo, 3) Rango y 4) Rango medio"
-  AnswerTests: omnitest(correctExpr='EXPR', correctVal=VAL)
-  Hint: Guarda como "Code2_Nombre_PrimerApellido".
+  AnswerTests: NULL
+  Hint: Guarda el código en el escritorio PrimerApellido_Nombre, oprime el botón ESC y luego escribe swirl() para reanudar la prueba
   Script: code2.R
