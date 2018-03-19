@@ -16,4 +16,4 @@
   Output: "Oprime el botón ESC para continuar"
   AnswerTests: NULL
   Hint: Siguiente...
-  Script: code1.R
+  Script: secuencial.R

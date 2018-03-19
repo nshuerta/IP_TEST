@@ -15,5 +15,5 @@
 - Class: script
   Output: "Oprime el botón ESC para continuar"
   AnswerTests: NULL
-  Hint: La prueba a concluido...
-  Script: code2.R
+  Hint: Entrega...
+  Script: selectiva.R
