@@ -22,7 +22,7 @@
   
 - Class: mult_question
   Output: "3. ¿Cuáles son los pasos para hacer un algoritmo?"
-  AnswerChoices: Lenguaje, Análisis y Diseño;Descripción, Diseño y Implementación;Análisis, Diseño y Implementación; Lista, Diseño y Codificación 
+  AnswerChoices: Lenguaje, Análisis y Diseño;Descripción, Diseño e Implementación;Análisis, Diseño e Implementación; Lista, Diseño y Codificación 
   CorrectAnswer: Análisis, Diseño y Implementación
   AnswerTests: omnitest(correctVal='Análisis, Diseño y Implementación')
   Hint: Escriba otra respuesta.
@@ -36,9 +36,9 @@
   
 - Class: mult_question
   Output: "5. Programa que no se realiza en una sola unidad de cómputo"
-  AnswerChoices: Paralelos y distribuidos y concurrentes;Orientado a objetos;Estructurado;Secuencial
-  CorrectAnswer: Paralelos y distribuidos y concurrentes
-  AnswerTests: omnitest(correctVal='Paralelos y distribuidos y concurrentes')
+  AnswerChoices: Paralelos, distribuidos y concurrentes;Orientado a objetos;Estructurado;Secuencial
+  CorrectAnswer: Paralelos, distribuidos y concurrentes
+  AnswerTests: omnitest(correctVal='Paralelos, distribuidos y concurrentes')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question

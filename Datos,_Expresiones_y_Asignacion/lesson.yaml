@@ -25,7 +25,7 @@
   Hint: Selecciona otra respuesta.
 
 - Class: mult_question
-  Output: "¿Cuál es la función de A<-scan(,nlines=1)?"
+  Output: "4. ¿Cuál es la función de A<-scan(,nlines=1)?"
   AnswerChoices: Guardar un valor;Asigna un valor;Leer un valor;Todas las otras opciones
   CorrectAnswer: Todas las otras opciones
   AnswerTests: omnitest(correctVal='Todas las otras opciones')
@@ -45,7 +45,7 @@
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
-  Output: "7. Eleva al cuadrado a X y asignala a X2"
+  Output: "7. Eleva al cuadrado a X y asígnala a X2"
   CorrectAnswer: NULL
   AnswerTests: any_of_exprs('X2<-X**2', 'X2=X**2', 'X2<-X^2', 'X2=X^2')
   Hint: Selecciona otra respuesta.
