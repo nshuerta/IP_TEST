@@ -13,7 +13,7 @@
   Output: "Guarda el código en el escritorio Nombre_PrimerApellido_ES1"
 
 - Class: script
-  Output: "Oprime el botón ESC para continuar"
+  Output: "Escribe swirl() para continuar"
   AnswerTests: NULL
   Hint: Siguiente...
   Script: secuencial.R
