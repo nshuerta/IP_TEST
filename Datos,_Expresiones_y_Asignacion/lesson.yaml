@@ -37,10 +37,10 @@
   Hint: Selecciona otra respuesta.
 
 - Class: mult_question
-  Output: "6. ¿De que clase es Z?"
-  AnswerChoices: Numerica;Logica;Caracter
-  CorrectAnswer: Logica
-  AnswerTests: omnitest(correctVal='Logica')
+  Output: "6. ¿De qué clase es Z?"
+  AnswerChoices: Numérica;Lógica;Carácter
+  CorrectAnswer: Lógica
+  AnswerTests: omnitest(correctVal='Lógica')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
