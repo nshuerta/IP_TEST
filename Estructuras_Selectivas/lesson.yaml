@@ -10,7 +10,7 @@
   Output: "Se presentan las calificaciones de 3 estudiantes (69, 98, 87), por favor obtén lo siguiente: 1) Máximo, 2) Mínimo, 3) Rango y 4) Rango medio"
 
 - Class: text
-  Output: "Guarda el código en el escritorio Nombre_PrimerApellido_ES2"
+  Output: "Oprime ENTER de nuevo y espera que te aparezca un script para que escribas tu código, después de que termines guarda el código en el escritorio Nombre_PrimerApellido_ES2"
 
 - Class: script
   Output: "Escribe swirl() para continuar o finalizar"

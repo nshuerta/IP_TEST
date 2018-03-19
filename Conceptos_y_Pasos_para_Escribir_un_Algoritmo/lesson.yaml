@@ -8,70 +8,70 @@
 
 - Class: mult_question
   Output: "1. Conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas"
-  AnswerChoices: Hardware;Programa;Dato
+  AnswerChoices: Hardware;Programa;Dato;Lista
   CorrectAnswer: Programa
   AnswerTests: omnitest(correctVal='Programa')
   Hint: Escriba otra respuesta.
 
 - Class: mult_question
   Output: "2. Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema"
-  AnswerChoices: Lenguaje;Hardware;Algoritmo
+  AnswerChoices: Lenguaje;Hardware;Algoritmo;Lista
   CorrectAnswer: Algoritmo
   AnswerTests: omnitest(correctVal='Algoritmo')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "3. ¿Cuáles son los pasos para hacer un algoritmo?"
-  AnswerChoices: Lenguaje, Análisis y Diseño;Descripción, Diseño y Implementación;Análisis, Diseño y Implementación 
+  AnswerChoices: Lenguaje, Análisis y Diseño;Descripción, Diseño y Implementación;Análisis, Diseño y Implementación; Lista, Diseño y Codificación 
   CorrectAnswer: Análisis, Diseño y Implementación
   AnswerTests: omnitest(correctVal='Análisis, Diseño y Implementación')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "4. Lenguaje formal diseñado para realizar procesos que pueden ser llevados a cabo por máquinas como las computadoras"
-  AnswerChoices: Lenguajes de programación;Lenguajes de escritura;Lenguajes de desarrollo
+  AnswerChoices: Lenguajes de programación;Lenguajes de escritura;Lenguajes de desarrollo;Lenguaje de proceso
   CorrectAnswer: Lenguajes de programación
   AnswerTests: omnitest(correctVal='Lenguajes de programación')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "5. Programa que no se realiza en una sola unidad de cómputo"
-  AnswerChoices: Paralelos y distribuidos y concurrentes;Orientado a objetos;Estructurado
+  AnswerChoices: Paralelos y distribuidos y concurrentes;Orientado a objetos;Estructurado;Secuencial
   CorrectAnswer: Paralelos y distribuidos y concurrentes
   AnswerTests: omnitest(correctVal='Paralelos y distribuidos y concurrentes')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "6. Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana"
-  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel
+  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel;Lenguaje de programación
   CorrectAnswer: Lenguaje de alto nivel
   AnswerTests: omnitest(correctVal='Lenguaje de alto nivel')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "7. Sistema de códigos directamente interpretable por un circuito microprogramable"
-  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel
+  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel;Lenguaje de programación
   CorrectAnswer: Lenguaje máquina
   AnswerTests: omnitest(correctVal='Lenguaje máquina')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "8. Lenguaje en el que sus instrucciones ejercen un control directo sobre el hardware y están condicionados por la estructura física de las computadoras que lo soportan"
-  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel
+  AnswerChoices: Lenguaje máquina;Lenguaje de bajo nivel;Lenguaje de alto nivel;Lenguaje de programación
   CorrectAnswer: Lenguaje de bajo nivel
   AnswerTests: omnitest(correctVal='Lenguaje de bajo nivel')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "9. Ambiente de desarrollo de distribución libre para cómputo estadístico y graficación multiplataforma"
-  AnswerChoices: R project;SAS;Phyton
+  AnswerChoices: R project;SAS;Phyton;STATA
   CorrectAnswer: R project
   AnswerTests: omnitest(correctVal='R project')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
   Output: "10. Unidades fundamentales del código en R reproducibles"
-  AnswerChoices: Paquetes;Lenguaje;Asignación
+  AnswerChoices: Paquetes;Lenguaje;Asignación;CRAN
   CorrectAnswer: Paquetes
   AnswerTests: omnitest(correctVal='Paquetes')
   Hint: Escriba otra respuesta.

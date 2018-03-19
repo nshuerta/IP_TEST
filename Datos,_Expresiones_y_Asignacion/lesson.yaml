@@ -24,10 +24,11 @@
   AnswerTests: any_of_exprs('Z<-X==3', 'Z=X==3')
   Hint: Selecciona otra respuesta.
 
-- Class: cmd_question
-  Output: "4. Obtén la clase de X"
-  CorrectAnswer: NULL
-  AnswerTests: omnitest(correctExpr='class(X)')
+- Class: mult_question
+  Output: "¿Cuál es la función de A<-scan(,nlines=1)"
+  AnswerChoices: Guardar un valor;Asigna un valor;Leer un valor,Todas las otras opciones
+  CorrectAnswer: Todas las otras opciones
+  AnswerTests: omnitest(correctVal='Todas las otras opciones')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
@@ -37,8 +38,8 @@
   Hint: Selecciona otra respuesta.
 
 - Class: mult_question
-  Output: "6. ¿De qué clase es Z?"
-  AnswerChoices: Numérica;Lógica;Carácter
+  Output: "6. ¿De qué clase es Z para R?"
+  AnswerChoices: Numérica;Lógica;Carácter,Letra
   CorrectAnswer: Lógica
   AnswerTests: omnitest(correctVal='Lógica')
   Hint: Selecciona otra respuesta.
