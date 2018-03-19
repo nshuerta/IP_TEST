@@ -8,31 +8,31 @@
 
 - Class: cmd_question
   Output: "1. Asigna a X el número 3"
-  CorrectAnswer: Continúa 
+  CorrectAnswer: NULL 
   AnswerTests: any_of_exprs('X<-3', 'X=3')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "2. Asigna a Y la palabra 'Cosa'"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: any_of_exprs('Y<-"Cosa"', 'Y="Cosa"','Y<-"cosa"','Y="cosa"')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "3. Asigna a Z la igualdad de X con 3"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: any_of_exprs('Z<-X==3', 'Z=X==3')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "4. Obtén la clase de X"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: omnitest(correctExpr='class(X)')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "5. Obtén la clase de Y"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: omnitest(correctExpr='class(Y)')
   Hint: Selecciona otra respuesta.
 
@@ -45,25 +45,25 @@
 
 - Class: cmd_question
   Output: "7. Eleva al cuadrado a X y asignala a X2"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: any_of_exprs('X2<-X**2', 'X2=X**2', 'X2<-X^2', 'X2=X^2')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "8.Compara si X2 es mayor o igual que X"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: omnitest(correctExpr='X2>=X')
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "9. Une las letras 's', 'o' y 'l' con espacios"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: any_of_exprs('paste("s","o","l")', 'paste("S","o","l")', 'paste("S","O","L")' )
   Hint: Selecciona otra respuesta.
 
 - Class: cmd_question
   Output: "10. Une las letras 's', 'o' y 'l' sin espacios"
-  CorrectAnswer: Continúa
+  CorrectAnswer: NULL
   AnswerTests: any_of_exprs('paste0("s","o","l")', 'paste0("S","o","l")', 'paste0("S","O","L")' )
   Hint: Selecciona otra respuesta.
 
