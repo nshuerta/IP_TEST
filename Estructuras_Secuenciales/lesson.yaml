@@ -5,9 +5,15 @@
   Type: Standard
   Organization: your organization's name goes here
   Version: 2.4.3
+  
+- Class: text
+  Output: "Se presentan las calificaciones de 5 estudiantes (75, 69, 98, 87, 67), por favor realiza lo siguiente: 1) Promedio, 2) Desviación estándar, 3) Coeficiente de Variación e 4) Intervalo de confianza al 95% por la regla empírica"
+
+- Class: text
+  Output: "Guarda el código en el escritorio Nombre_PrimerApellido_ES1"
 
 - Class: script
-  Output: "Estas son calificaciones de 5 estudiantes de Actuaria (75, 69, 98, 87, 67) realizar lo siguiente: 1) Promedio, 2) Desviación estándar, 3) Coeficiente de Variación e 4) Intervalo de confianza al 95% por la regla empírica"
+  Output: "Oprime el botón ESC para continuar"
   AnswerTests: NULL
-  Hint: Guarda el código en el escritorio PrimerApellido_Nombre, oprime el botón ESC y luego escribe swirl() para reanudar la prueba
+  Hint: Siguiente...
   Script: code1.R

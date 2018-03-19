@@ -81,4 +81,4 @@
   AnswerChoices: Si
   CorrectAnswer: Si
   AnswerTests: submit_log()
-  Hint: Si ya enviaste tu "calificación", oprime el botón ESC y luego escribe swirl() para reanudar la prueba
+  Hint: Si ya enviaste tu "calificación", oprime el botón ESC.
