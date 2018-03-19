@@ -25,8 +25,8 @@
   Hint: Selecciona otra respuesta.
 
 - Class: mult_question
-  Output: "¿Cuál es la función de A<-scan(,nlines=1)"
-  AnswerChoices: Guardar un valor;Asigna un valor;Leer un valor,Todas las otras opciones
+  Output: "¿Cuál es la función de A<-scan(,nlines=1)?"
+  AnswerChoices: Guardar un valor;Asigna un valor;Leer un valor;Todas las otras opciones
   CorrectAnswer: Todas las otras opciones
   AnswerTests: omnitest(correctVal='Todas las otras opciones')
   Hint: Selecciona otra respuesta.

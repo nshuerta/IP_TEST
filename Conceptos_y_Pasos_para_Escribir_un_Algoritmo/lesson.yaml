@@ -29,7 +29,7 @@
   
 - Class: mult_question
   Output: "4. Lenguaje formal diseñado para realizar procesos que pueden ser llevados a cabo por máquinas como las computadoras"
-  AnswerChoices: Lenguajes de programación;Lenguajes de escritura;Lenguajes de desarrollo;Lenguaje de proceso
+  AnswerChoices: Lenguajes de programación;Lenguajes de escritura;Lenguajes de desarrollo;Lenguajes de proceso
   CorrectAnswer: Lenguajes de programación
   AnswerTests: omnitest(correctVal='Lenguajes de programación')
   Hint: Escriba otra respuesta.
