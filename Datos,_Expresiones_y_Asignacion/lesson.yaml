@@ -39,7 +39,7 @@
 
 - Class: mult_question
   Output: "6. ¿De qué clase es Z para R?"
-  AnswerChoices: Numérica;Lógica;Carácter,Letra
+  AnswerChoices: Numérica;Lógica;Carácter;Letra
   CorrectAnswer: Lógica
   AnswerTests: omnitest(correctVal='Lógica')
   Hint: Selecciona otra respuesta.
