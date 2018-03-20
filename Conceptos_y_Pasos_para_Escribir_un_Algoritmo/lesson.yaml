@@ -23,8 +23,8 @@
 - Class: mult_question
   Output: "3. ¿Cuáles son los pasos para hacer un algoritmo?"
   AnswerChoices: Lenguaje, Análisis y Diseño;Descripción, Diseño e Implementación;Análisis, Diseño e Implementación; Lista, Diseño y Codificación 
-  CorrectAnswer: Análisis, Diseño y Implementación
-  AnswerTests: omnitest(correctVal='Análisis, Diseño y Implementación')
+  CorrectAnswer: Análisis, Diseño e Implementación
+  AnswerTests: omnitest(correctVal='Análisis, Diseño e Implementación')
   Hint: Escriba otra respuesta.
   
 - Class: mult_question
